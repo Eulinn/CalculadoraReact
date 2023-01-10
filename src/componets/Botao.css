@@ -1,0 +1,33 @@
+:root{
+    --especial:#555aa6;
+    --fundo:#21252b;
+    --lugares:#282c34;
+    --hover:#2c313a;
+    --letras:#696969;
+
+}
+
+
+.bot{
+    width: 20%;
+    height: 100%;
+
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 19px;
+    color: var(--letras);
+    transition: .1s ease-in-out;
+    cursor: pointer;
+
+
+
+}
+
+.bot:hover{
+    background-color: var(--lugares);
+
+}

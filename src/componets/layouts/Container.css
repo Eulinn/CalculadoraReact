@@ -1,0 +1,32 @@
+:root{
+    --especial:#555aa6;
+    --fundo:#21252b;
+    --lugares:#282c34;
+    --hover:#2c313a;
+
+}
+  
+
+
+.container{
+    position: relative;
+    display: flex;
+}
+
+.container.fundo{
+    background-color: var(--fundo);
+}
+.container.item{
+    background-color: var(--lugares);
+}
+
+
+.tamanhoTodo{
+    width: 100%;
+    height: 100%;
+}
+
+.itensMeio{
+    justify-content: center;
+    align-items: center;
+}
